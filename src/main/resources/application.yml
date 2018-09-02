@@ -1,0 +1,16 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+#    serviceUrl:
+#      #defaultZone: http://${EUREKA_SLAVE_SERVICE_HOST}:${EUREKA_SLAVE_SERVICE_PORT}/eureka
+#      defaultZone: http://${EUREKA_MASTER_SERVICE_HOST}:${EUREKA_MASTER_SERVICE_PORT}/eureka
+#    registry-fetch-interval-seconds: 30
+#  server:
+#    waitTimeInMsWhenSyncEmpty: 0
+#    enableSelfPreservation: false
+#  instance:
+#    #hostname: ${spring.cloud.client.ipAddress}
+#    #hostname: ${EUREKA_SLAVE_SERVICE_HOST}
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
