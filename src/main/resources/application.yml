@@ -1,4 +1,8 @@
 eureka:
+  server:
+    peer-eureka-status-refresh-time-interval-ms: 300
+    response-cache-auto-expiration-in-seconds: 180
+    eviction-interval-timer-in-ms: 10000
   client:
     registerWithEureka: false
     fetchRegistry: false
